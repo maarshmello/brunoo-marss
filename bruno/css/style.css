@@ -1,0 +1,603 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*font: inherit;*/
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a
+{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+a img {
+    border: none;
+    cursor: pointer;
+    }
+img {
+    vertical-align: bottom;
+}
+*:focus,*:active {
+    outline: none;
+}
+li
+{
+    display: inline-block;
+}
+
+
+//////////////////////////
+///////////////////////////
+//////////////////////////
+////////////////////////////
+/////////////////////////////
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #fff; }
+
+.wrapper {
+  position: relative;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
+  background-image: url(../image/main_bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat; }
+
+.in {
+  max-width: 1084px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.About-text:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+#footer:before {
+  content: '';
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  max-width: 1198px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.heading {
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative; }
+  .heading h2 {
+    color: #595959;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Raleway" , sans-serif;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 4px; }
+
+.heading:after {
+  content: '';
+  display: inline-block;
+  width: 116px;
+  height: 7px;
+  background-color: #31c4dd;
+  margin-top: 10px;
+  top: 50px; }
+
+header {
+  background-image: url(../image/header_bg.jpg);
+  padding-bottom: 123px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 143px; }
+  header .main_photo {
+    background-image: url(../image/BruniMars_photo.jpg);
+    border-radius: 50%;
+    height: 334px;
+    width: 332px;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 0px 6px 11px rgba(255, 255, 255, 0.1);
+    margin: auto; }
+  header .Brunoname {
+    text-align: center;
+    margin-top: 48px; }
+  header p {
+    margin-top: 28px;
+    text-align: center;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1f98ad; }
+  header .buttons {
+    text-align: center; }
+  header .button:nth-child(1) {
+    border: 2px solid #fff;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 16px;
+    padding-bottom: 13px;
+    display: inline-block;
+    margin-right: 9px;
+    font-weight: 400;
+    box-sizing: border-box; }
+    header .button:nth-child(1) a {
+      color: #fff;
+      font-weight: 400;
+      padding-left: 34px;
+      padding-right: 34px;
+      padding-bottom: 9px;
+      padding-top: 12px;
+      box-sizing: border-box; }
+  header .button:nth-child(2) {
+    border: 2px solid #fff;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 16px;
+    padding-bottom: 13px;
+    display: inline-block;
+    margin-right: -7px;
+    margin-left: 19px;
+    font-weight: 400;
+    box-sizing: border-box; }
+    header .button:nth-child(2) a {
+      color: #fff;
+      font-weight: 400;
+      padding-left: 26px;
+      padding-right: 30px;
+      padding-bottom: 9px;
+      padding-top: 12px;
+      box-sizing: border-box; }
+
+.About_me {
+  /*height: 613px;*/
+  /*height: 494px;*/
+  padding-top: 67px;
+  background-color: #f3f3f3;
+  padding-bottom: 123px; }
+  .About_me .About-text {
+    margin-left: 10px;
+    width: calc(55% - 91px); }
+    .About_me .About-text h3 {
+      font-family: "Raleway" , sans-serif;
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #595959;
+      margin-bottom: 13px; }
+    .About_me .About-text h4 {
+      font-family: "Raleway" , sans-serif;
+      font-size: 26px;
+      font-weight: 500;
+      color: #595959;
+      text-transform: uppercase;
+      margin-bottom: 14px; }
+    .About_me .About-text p {
+      font-size: 16px;
+      color: #b9b9b9;
+      line-height: normal;
+      text-transform: uppercase;
+      line-height: 1.9;
+      text-align: left;
+      font-weight: 400;
+      font-family: "Raleway" , sans-serif; }
+  .About_me .video {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px; }
+    .About_me .video iframe {
+      width: 462px;
+      height: 344px; }
+  .About_me .video:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.MyServices {
+  padding-top: 68px;
+  /*height: 800px;*/
+  background-image: url(../image/myservice_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .MyServices .heading {
+    margin-bottom: 76px; }
+    .MyServices .heading h2 {
+      color: #fff; }
+  .MyServices .l_bocks {
+    margin-left: 8px;
+    text-align: justify; }
+    .MyServices .l_bocks .smallblock {
+      width: 30%;
+      text-align: center;
+      vertical-align: top;
+      display: inline-block;
+      margin-bottom: 105px; }
+      .MyServices .l_bocks .smallblock img {
+        vertical-align: top; }
+      .MyServices .l_bocks .smallblock .title {
+        color: #c3c4c5;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 18px; }
+      .MyServices .l_bocks .smallblock p {
+        font-size: 17px;
+        color: #c3c4c5;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.4;
+        color: #a4a6a7;
+        font-family: "Raleway" , sans-serif; }
+  .MyServices .smallblock:nth-child(3n) {
+    margin-right: 0; }
+
+.l_bocks:after {
+  content: '';
+  display: inline-block;
+  width: 100%; }
+
+.Portfolio {
+  /*height: 526px;*/
+  padding-top: 69px;
+  background-color: #f3f3f3;
+  padding-bottom: 69px; }
+  .Portfolio .heading {
+    margin-bottom: 59px; }
+  .Portfolio .image_block {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: -16px;
+    margin-top: -2px;
+    width: 265px;
+    height: 199px; }
+    .Portfolio .image_block p {
+      font-size: 24px;
+      font-weight: 300;
+      padding-top: 119px;
+      padding-bottom: 32px;
+      color: transparent;
+      text-align: center;
+      font-family: "Raleway" , sans-serif; }
+      .Portfolio .image_block p span {
+        font-weight: 600;
+        font-size: 17px; }
+
+.image_block p:hover {
+  background: rgba(0, 0, 0, 0.8) url(../image/plus.png);
+  background-repeat: no-repeat;
+  background-position: 50% 34%;
+  color: #cfcfcf;
+  cursor: pointer; }
+
+.Blog {
+  padding-bottom: 76px;
+  padding-top: 29px;
+  background-color: #f3f3f3; }
+  .Blog .l_bocks {
+    margin-left: 12px;
+    text-align: justify; }
+    .Blog .l_bocks .longer_bocks {
+      background-color: #fff;
+      width: 281px;
+      display: inline-block;
+      padding: 14px;
+      margin-left: 1px;
+      margin-bottom: 60px;
+      box-shadow: 0 0 16px -8px;
+      vertical-align: top; }
+      .Blog .l_bocks .longer_bocks iframe {
+        width: 282px;
+        height: 178px; }
+    .Blog .l_bocks .long-text {
+      text-align: left;
+      padding-left: 26px;
+      padding-right: 20px;
+      margin-top: 21px; }
+      .Blog .l_bocks .long-text h5 {
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: "Raleway" , sans-serif;
+        color: #595959;
+        font-size: 18px;
+        line-height: normal; }
+      .Blog .l_bocks .long-text .BrunoMars {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Raleway" , sans-serif;
+        line-height: normal;
+        color: #7c7c7c;
+        border-right: 1.5px solid #7c7c7c;
+        padding-right: 8px; }
+      .Blog .l_bocks .long-text .comments {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Raleway" , sans-serif;
+        font-size: 14px;
+        color: #7c7c7c;
+        line-height: normal;
+        margin-left: 5px; }
+      .Blog .l_bocks .long-text p {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "Raleway" , sans-serif;
+        margin-top: 12px;
+        color: #7c7c7c;
+        line-height: 1.4; }
+      .Blog .l_bocks .long-text .button_long {
+        margin-top: 15px;
+        margin-bottom: 11px;
+        margin-left: 111px; }
+        .Blog .l_bocks .long-text .button_long a {
+          background-color: #64c9db;
+          display: block;
+          width: 98px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #fff;
+          font-weight: 600;
+          font-family: "Raleway" , sans-serif;
+          padding-top: 10px;
+          padding-bottom: 13px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 19px; }
+  .Blog .l_bocks:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
+  .Blog .blog_title {
+    font-size: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 17px;
+    font-family: "Raleway" , sans-serif;
+    color: #515151; }
+    .Blog .blog_title span {
+      text-transform: uppercase;
+      color: #64c9db;
+      font-size: 24px;
+      font-family: "Raleway" , sans-serif;
+      font-weight: bold;
+      margin-right: 0px; }
+  .Blog .longer_bocks:nth-child(3n) {
+    margin-right: 0; }
+
+.Status {
+  background-image: url(../image/status.jpg);
+  background-size: cover;
+  height: 540px;
+  padding-top: 159px; }
+  .Status .elips {
+    text-align: center;
+    margin-left: 0x;
+    margin-top: 85px; }
+    .Status .elips span {
+      color: #fff;
+      display: block;
+      font-family: "Raleway" , sans-serif;
+      font-size: 30px;
+      margin-bottom: 8px;
+      margin-top: -12px; }
+    .Status .elips p {
+      color: #fff;
+      font-size: 30px;
+      font-family: "Raleway" , sans-serif;
+      text-transform: uppercase; }
+
+.pp {
+  margin-top: -406px;
+  margin-bottom: 306px; }
+
+.ss {
+  display: inline-block;
+  margin-left: 113px; }
+
+.cc {
+  display: inline-block;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 62px; }
+
+#superfooter {
+  text-align: center;
+  padding-top: 70px;
+  background-color: #f3f3f3;
+  padding-bottom: 70px; }
+  #superfooter .Status_title {
+    text-align: center;
+    font-family: "Raleway" , sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #595959;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-bottom: 10px; }
+  #superfooter a {
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Raleway";
+    padding-top: 19px;
+    padding-bottom: 13px;
+    width: 166px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #5dbed2;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle; }
+
+#footer {
+  height: 70px;
+  padding-top: 2px;
+  background-color: #f3f3f3; }
+  #footer p {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #8e8e8e;
+    font-family: "Raleway";
+    display: inline-block; }
+  #footer .soc {
+    float: right;
+    padding-top: 15px; }
+
+@media screen and (max-width: 800px) {
+  .video {
+    float: none !important;
+    text-align: center;
+    margin-right: 0 !important; }
+
+  .About-text {
+    width: 100% !important;
+    text-align: center;
+    margin-left: 0 !important; }
+    .About-text p {
+      font-size: 20px !important; }
+
+  .block_with_images {
+    text-align: center; }
+
+  .image_block {
+    margin-right: 0 !important; } }
+@media screen and (max-width: 600px) {
+  .video iframe {
+    width: 92% !important; }
+
+  .main_photo {
+    width: 200px !important;
+    height: 200px !important;
+    background-position: -52px top !important; }
+
+  .smallblock p {
+    font-size: 13px !important; } }
+@media screen and (max-width: 500px) {
+  .smallblock {
+    margin-right: 20px !important; }
+    .smallblock p {
+      font-size: 10px !important; } }
+@media screen and (max-width: 700px) {
+  .Status img {
+    width: 111px;
+    margin-bottom: -151px; }
+
+  .Blog .l_bocks {
+    margin-left: 0 !important;
+    text-align: center; }
+
+  .ss {
+    font-size: 11px !important;
+    margin-top: 20px !important; }
+
+  .cc {
+    font-size: 11px !important;
+    margin-top: 20px !important;
+    margin-right: -54px !important;
+    margin-left: 36px !important; }
+
+  .pp {
+    font-size: 11px !important;
+    margin-top: !important;
+    margin-top: -32px !important;
+    margin-bottom: 116px !important; } }
+@media screen and (max-width: 400px) {
+  #footer {
+    height: 70px;
+    padding-top: 2px;
+    background-color: #f3f3f3;
+    text-align: center; }
+    #footer p {
+      padding-top: 20px;
+      font-size: 25px;
+      color: #8e8e8e;
+      font-family: "Raleway";
+      display: inline-block; }
+    #footer .soc {
+      display: none;
+      text-align: center;
+      padding-top: 15px; }
+
+  .MyServices .l_bocks {
+    text-align: center !important; }
+    .MyServices .l_bocks .smallblock {
+      width: 50% !important; } }
+@media screen and (max-width: 365px) {
+  .heading h2 {
+    font-size: 28px !important; }
+
+  .smallblock p {
+    font-size: 14px !important; }
+
+  .long-text p {
+    font-size: 13px !important; }
+
+  .button_long a {
+    font-size: 15px !important; }
+
+  .blog_title {
+    letter-spacing: 2px; }
+
+  .About-text h4 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 21px !important; }
+  .About-text p {
+    min-width: 275px;
+    font-size: 14px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify !important; }
+
+  .button:nth-child(2) {
+    margin-right: 28px !important; }
+
+  .video iframe {
+    width: 79% !important; } }
+
+
